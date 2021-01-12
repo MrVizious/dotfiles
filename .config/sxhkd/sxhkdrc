@@ -1,0 +1,60 @@
+##################
+# Spawn programs #
+##################
+
+# Spawn Terminal
+ctrl + alt + Return
+	alacritty
+
+# Chromium
+ctrl + alt + i
+	chromium
+
+# Rofi
+alt + p
+	rofi -m -1 -show run
+
+# Ranger
+ctrl + alt + p
+	alacritty -e ranger
+
+# Htop
+ctrl + @Escape
+	alacritty -e htop
+
+#########
+# bspwm #
+#########
+
+# Quit bspwm
+alt + shift + q
+	bspc quit
+
+# Close node
+alt + shift + c
+    bspc node -c
+
+# Focus the node in the given direction
+alt + {h,j,k,l}
+	bspc node -f {west,south,north,east}
+
+# Send node to the given direction and follow
+alt + shift + {h,j,k,l}
+	bspc node -s {west,south,north,east} --follow
+
+# Focus desktop or send to node the given desktop
+alt + {_,shift + }{1-9}
+	bspc {desktop -f,node -d} '^{1-9}' --follow
+
+# Focus the monitor on the left or right
+alt + {comma, period}
+	bspc monitor -f {west,east}
+
+# Move node to the monitor on the left or right
+alt + shift + {comma, period}
+	bspc node -m {west,east} --follow
+
+# Toggle floating
+alt + shift + @space
+    bspc node focused -t \~floating
+
