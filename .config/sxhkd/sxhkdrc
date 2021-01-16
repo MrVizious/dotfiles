@@ -15,12 +15,30 @@ alt + p
 	rofi -m -1 -show run
 
 # Ranger
-ctrl + alt + p
+ctrl + alt + f
 	alacritty -e ranger
 
 # Htop
 ctrl + @Escape
 	alacritty -e htop
+
+
+##############
+# pulseaudio #
+##############
+
+# Toggle mute
+XF86AudioMute
+    pulseaudio-ctl mute
+
+# Toggle mic mute
+XF86AudioMicMute
+    pulseaudio-ctl mute-input
+
+# Change volume
+XF86Audio{Raise,Lower}Volume
+    pulseaudio-ctl {up,down} 2
+
 
 #########
 # bspwm #
@@ -58,3 +76,11 @@ alt + shift + {comma, period}
 alt + shift + @space
     bspc node focused -t \~floating
 
+
+#########
+# sxhkd #
+#########
+
+# make sxhkd reload its configuration files:
+alt + shift + r
+	pkill -USR1 -x sxhkd

@@ -101,6 +101,9 @@ alias more=less
 alias l='ls -lAh'
 alias r=ranger
 alias ssn='sudo shutdown now'
+alias btc='bluetoothctl'
+alias cs='cd "$@" && l'
+
 
 xhost +local:root > /dev/null 2>&1
 
