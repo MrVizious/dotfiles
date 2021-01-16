@@ -6,11 +6,13 @@ killall -q polybar
 # If all your bars have ipc enabled, you can also use 
 # polybar-msg cmd quit
 
-# Launch bar2, bar2 and bar3
-echo "---" | tee -a /tmp/polybar1.log /tmp/polybar2.log /tmp/polybar3.log
+# Launch "mrvizious" bar on all monitors
+if type "xrandr"; then
+  for m in $(xrandr --query | grep " connected" | cut -d" " -f1); do
+    MONITOR=$m polybar --reload mrvizious &
+  done
+else
+  polybar --reload mrvizious &
+fi
 
-polybar bar1 2>&1 | tee -a /tmp/polybar1.log & disown
-polybar bar2 2>&1 | tee -a /tmp/polybar2.log & disown
-polybar bar3 2>&1 | tee -a /tmp/polybar2.log & disown
-
-echo "Bars launched..."
+echo "Bar(s) launched..."
