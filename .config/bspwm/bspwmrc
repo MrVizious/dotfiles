@@ -37,5 +37,5 @@ bspc config pointer_modifier mod1
 bspc config pointer_action1 move
 bspc config pointer_action2 resize_corner
 
-# $HOME/.config/polybar/launch.sh
+$HOME/.config/polybar/launch.sh
 
