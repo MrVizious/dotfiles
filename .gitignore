@@ -1,7 +1,9 @@
 # Ignore everything by default
 *
 !/.config/
+!/.gitdata/
 
 !.bashrc
 !.xinitrc
 !.gitignore
+!.gitconfig
