@@ -88,7 +88,7 @@ label-empty-foreground = #55
 
 [module/clock]
 type = internal/date
-interval = 2
-date = %%{F#999}%Y-%m-%d%%{F-}  %%{F#fff}%H:%M%%{F-}
+interval = 1
+date = %%{F#999}%Y-%m-%d%%{F-}  %%{F#fff}%H:%M:%S%{F-}
 
 ; vim:ft=dosini

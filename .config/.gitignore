@@ -1,0 +1,9 @@
+/*
+!/*/
+!alacritty/**
+!bspwm/**
+!polybar/**
+!ranger/**
+!sxhkd/**
+
+!.gitignore
