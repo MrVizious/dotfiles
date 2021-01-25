@@ -30,9 +30,12 @@ padding-left = 1
 module-margin = 0
 
 modules-left = bspwm
+modules-center = title
 modules-right = clock
 
 font-0 = Input:size=12;3
+
+wm-restack = bspwm
 
 [module/bspwm]
 type = internal/bspwm
@@ -77,7 +80,8 @@ label-active-foreground = #fff
 label-active-background = #773f3f3f
 ;label-active-underline = #c9665e
 
-label-focused-foreground = #821fa1
+;label-focused-foreground = #821fa1
+label-focused-foreground = #734bab
 
 label-occupied-foreground = #dd
 ;label-occupied-underline = #666
@@ -94,3 +98,11 @@ interval = 1
 date = %%{F#999}%Y-%m-%d%%{F-}  %%{F#fff}%H:%M:%S%{F-}
 
 ; vim:ft=dosini
+
+[module/title]
+type = internal/xwindow
+
+format = <label>
+format-background = #00fff
+format-foreground = #fff
+format-padding = 4
