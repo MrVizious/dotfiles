@@ -4,6 +4,7 @@
 !bspwm/**
 !polybar/**
 !ranger/**
+!superpaper/**
 !sxhkd/**
 
 !.gitignore
