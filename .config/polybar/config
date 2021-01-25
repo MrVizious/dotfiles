@@ -24,7 +24,7 @@ height = 25
 background = #55000000
 foreground = #eeffffff
 
-spacing = 1
+spacing = 2
 padding-right = 2
 padding-left = 1
 module-margin = 0
@@ -71,11 +71,13 @@ fuzzy-match = true
 ; Copied from space
 ;
 
-label-dimmed-underline = ${BAR.background}
+;label-dimmed-underline = ${BAR.background}
 
 label-active-foreground = #fff
 label-active-background = #773f3f3f
 ;label-active-underline = #c9665e
+
+label-focused-foreground = #821fa1
 
 label-occupied-foreground = #dd
 ;label-occupied-underline = #666
