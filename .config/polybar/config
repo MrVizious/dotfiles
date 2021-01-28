@@ -74,22 +74,12 @@ fuzzy-match = true
 ; Copied from space
 ;
 
-;label-dimmed-underline = ${BAR.background}
+label-active-foreground = #734bab
 
-label-active-foreground = #fff
-label-active-background = #773f3f3f
-;label-active-underline = #c9665e
+;Currently focused desktop
+label-focused-foreground = #a487cc
 
-;label-focused-foreground = #821fa1
-label-focused-foreground = #734bab
-
-label-occupied-foreground = #dd
-;label-occupied-underline = #666
-
-label-urgent-foreground = #000000
-label-urgent-background = #bd2c40
-;label-urgent-underline = #9b0a20
-
+label-occupied-foreground = #47207d
 label-empty-foreground = #55
 
 [module/clock]
