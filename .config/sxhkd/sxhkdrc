@@ -19,7 +19,7 @@ ctrl + alt + f
 	alacritty -e ranger
 
 # Htop
-ctrl + @Escape
+ctrl + shift + @Escape
 	alacritty -e htop
 
 
@@ -38,6 +38,7 @@ XF86AudioMicMute
 # Change volume
 XF86Audio{Raise,Lower}Volume
     pulseaudio-ctl {up,down} 2
+    #pactl set-sink-volume @DEFAULT_SINK@ -10%
 
 
 #########
