@@ -103,6 +103,7 @@ alias r=ranger
 alias ssn='sudo shutdown now'
 alias btc='bluetoothctl'
 alias cs='cd "$@" && l'
+alias vim='nvim'
 
 
 xhost +local:root > /dev/null 2>&1
