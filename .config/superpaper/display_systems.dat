@@ -5,3 +5,10 @@ user_diagonal_inches = None
 use_perspective = 1
 def_perspective = None
 
+[-8191125204236710757]
+ppi_norm_offsets = 0.0,97.984375;2561.2026909722226,29.939670138888893;3712.5190972222226,0.0
+bezel_mms = 0.0,0.0;0.0,0.0;0.0,0.0
+user_diagonal_inches = None
+use_perspective = 1
+def_perspective = None
+

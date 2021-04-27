@@ -18,6 +18,10 @@ alt + p
 ctrl + alt + f
 	alacritty -e ranger
 
+# Nautilus
+ctrl + alt + shift + f
+	nautilus
+
 # Htop
 ctrl + shift + @Escape
 	alacritty -e htop
