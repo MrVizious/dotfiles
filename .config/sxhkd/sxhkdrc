@@ -22,6 +22,10 @@ ctrl + alt + f
 ctrl + alt + shift + f
 	nautilus
 
+# Nautilus
+ctrl + alt + d
+	discord
+
 # Htop
 ctrl + shift + @Escape
 	alacritty -e htop
