@@ -30,8 +30,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 14
 
-#define LCPC_KEYS KC_LCTL, KC_LSFT, KC_LBRC
-#define RCPC_KEYS KC_RCTL, KC_RSFT, KC_RBRC
+#define LCPO_KEYS KC_LCTL, KC_RSFT, KC_LBRC
+#define RCPC_KEYS KC_RCTL, KC_LSFT, KC_RBRC
 
 /*
  * Keyboard Matrix Assignments
