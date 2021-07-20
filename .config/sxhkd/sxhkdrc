@@ -93,3 +93,12 @@ alt + shift + @space
 # make sxhkd reload its configuration files:
 alt + shift + r
 	pkill -USR1 -x sxhkd
+
+
+#############
+# Utilities #
+#############
+
+# Print screen calls flameshot gui
+Print
+	flameshot gui
