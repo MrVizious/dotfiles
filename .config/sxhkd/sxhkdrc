@@ -10,6 +10,10 @@ ctrl + alt + Return
 ctrl + alt + i
 	chromium
 
+# Chromium Incognito
+ctrl + alt + shift + i
+	chromium --incognito
+
 # Rofi
 alt + p
 	rofi -m -1 -show run
